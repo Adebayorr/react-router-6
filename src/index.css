@@ -11,9 +11,11 @@
 body {
   background-color: #274245;
   width: 100vw;
+  overflow-x: hidden;
 }
 
-.about, .home {
+.about,
+.home {
   width: 100%;
   padding: 2rem;
 }
@@ -46,4 +48,23 @@ div a {
 div a.active {
   background-color: #a823e8;
   border-radius: 0.2rem;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1.5rem;   */
+}
+
+.links a {
+  padding: 0.6rem 1rem;
+  border: 2px solid #fff;
+  border-radius: .2rem;
+}
+
+.help {
+  width: 100%;
+  padding: 2rem;
 }
