@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const Help = () => {
     return ( 
         <div className="help">
-            <h2 className="contact">Contact</h2>
+            <h2 className="contact">Need A Hand?</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus expedita.</p>
 
             <div className="links">

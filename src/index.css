@@ -15,7 +15,9 @@ body {
 }
 
 .about,
-.home {
+.home,
+.not-found,
+.careers-layout{
   width: 100%;
   padding: 2rem;
 }
@@ -54,11 +56,10 @@ div a.active {
 .links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  /* margin-top: 1.5rem;   */
+  align-items: center;  
 }
 
-.links a {
+.help .links a {
   padding: 0.6rem 1rem;
   border: 2px solid #fff;
   border-radius: .2rem;
@@ -67,4 +68,82 @@ div a.active {
 .help {
   width: 100%;
   padding: 2rem;
+}
+
+.help >  p {
+  margin-bottom: 3rem;
+}
+
+.faq > h3 {
+  margin-top: 1rem;
+}
+.faq .question {
+  background: rgba(0,0,0,0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* contact form */
+form {
+  margin-top: 30px;
+}
+form input, form label span, form textarea {
+  display: block;
+}
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: #274245;
+  font-weight: bold;
+}
+form label span {
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus,
+button:hover {
+  outline: none;
+  border: none;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  background: #a823e8;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+
+.error {
+  font-size: 4rem;
+  /* text-align: center;   */
+}
+
+.not-found a {
+  padding: 0;
+  margin: 0;
+}
+
+.careers > a {
+  display: block;
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+.careers > a:hover p {
+  color: #a823e8;
+}
+.careers p {
+  margin: 0;
+}
+.careers > a p:last-child {
+ font-size: 0.8em;
+ color: #bbb;
 }
