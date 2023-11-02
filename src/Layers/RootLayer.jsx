@@ -1,4 +1,5 @@
 import {NavLink, Outlet} from "react-router-dom"
+import BreadCrumbs from "../Components/BreadCrumbs";
 
 const RootLayer = () => {
     return ( 
@@ -13,6 +14,7 @@ const RootLayer = () => {
                         <NavLink to="/careers">Careers</NavLink>
                     </div>
                 </nav>
+                <BreadCrumbs />
             </div>
             <main>
                 <Outlet />
