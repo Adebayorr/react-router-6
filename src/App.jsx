@@ -17,6 +17,7 @@ import RootLayer from "./Layers/RootLayer"
 import Help from "./Layers/Help"
 import CareersLayout from "./Layers/CareersLayout"
 import CareerDetails, { careerDetailsLoader } from "./pages/careers/CareerDetails"
+import CareerError from "./pages/careers/CareerError"
 
 
 
@@ -31,7 +32,7 @@ const router = createBrowserRouter(
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
-      <Route path="/careers" element={<CareersLayout />} >
+      <Route path="/careers" element={<CareersLayout />} errorElement={<CareerError />}>
         <Route 
         index 
         element={<Careers />} 
