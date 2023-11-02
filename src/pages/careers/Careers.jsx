@@ -20,5 +20,9 @@ export default Careers;
 // eslint-disable-next-line react-refresh/only-export-components
 export const careersLoader = async () => {
     const res = await fetch("http://localhost:4000/careers")
+
+    if (!res.ok) {
+        throw new Error("Cannot fetch careers data from the server")
+    }
     return res.json()
 }
