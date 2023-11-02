@@ -4,43 +4,50 @@
         "id": 1,
         "title": "Senior React Developer",
         "salary": 50000,
-        "location": "London, UK"
+        "location": "London, UK",
+        "description": "We are seeking a highly skilled Senior React Developer to join our dynamic team and play a key role in the development and enhancement of our web applications. As a Senior React Developer, you will be responsible for designing, implementing, and maintaining user-friendly, high-performance web interfaces using the latest React.js technologies. You will work closely with our cross-functional team, including UI/UX designers and back-end developers, to create innovative and responsive web applications that meet our clients' needs."
       },
       {
         "id": 2,
         "title": "Plumber",
         "salary": 40000,
-        "location": "Bowser's Castle"
+        "location": "Bowser's Castle",
+        "description": "We are looking for a skilled and reliable Plumber to join our team. As a Plumber, your primary responsibility will be to install, repair, and maintain plumbing systems in residential, commercial, and industrial settings. Your work will ensure the safe and efficient distribution of water and the proper disposal of waste."
       },
       {
         "id": 3,
         "title": "Gym Leader",
         "salary": 75000,
-        "location": "Kanto Region"
+        "location": "Kanto Region",
+        "description": "We are seeking a dedicated and passionate Gym Leader to manage and oversee the operations of our fitness facility. As a Gym Leader, you will be responsible for creating a motivating and safe environment for members, leading a team of fitness professionals, and ensuring the facility's success in achieving fitness goals and customer satisfaction."
       },
       {
         "id": 4,
         "title": "Vue Developer",
         "salary": 40000,
-        "location": "Liverpool, UK"
+        "location": "Liverpool, UK",
+        "description": "We are in search of an accomplished and innovative Vue.js Developer to join our dynamic development team. As a Vue.js Developer, you will play a pivotal role in creating engaging and responsive web applications, leveraging your expertise in Vue.js and front-end technologies. Your contributions will directly impact our clients' digital experiences and drive the success of our projects."
       },
       {
         "id": 5,
         "title": "Tutorial Maker",
         "salary": 35000,
-        "location": "Manchester, UK"
+        "location": "Manchester, UK",
+        "description": "We are seeking a creative and knowledgeable Tutorial Maker to join our team and create high-quality educational content. As a Tutorial Maker, you will be responsible for producing engaging and informative tutorials, guides, and instructional materials across various subjects and formats, catering to our audience's learning needs."
       },
       {
         "id": 6,
         "title": "Website Manager",
         "salary": 50000,
-        "location": "Berlin, Germany"
+        "location": "Berlin, Germany",
+        "description": "We are looking for an experienced and organized Website Manager to oversee the development, maintenance, and performance of our online presence. As a Website Manager, you will be responsible for ensuring our website is user-friendly, up-to-date, and aligns with our brand's goals and objectives. You will play a crucial role in enhancing the overall digital experience for our visitors and customers."
       },
       {
         "id": 7,
         "title": "Food Tester",
         "salary": 30000,
-        "location": "London, UK"
+        "location": "London, UK",
+        "description": "We are seeking a Food Tester with a discerning palate and a passion for culinary exploration to join our team. As a Food Tester, you will play a vital role in evaluating the taste, quality, and safety of food products to ensure they meet our standards of excellence. Your feedback will contribute to the development and improvement of our culinary offerings."
       }
     ]
   }
