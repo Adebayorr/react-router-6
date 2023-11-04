@@ -7,7 +7,7 @@ import {
 
 import About from "./pages/About"
 import Home from "./pages/Home"
-import Contact from "./pages/help/Contact"
+import Contact, { contactAction } from "./pages/help/Contact"
 import NotFound from "./pages/NotFound"
 import Careers, {careersLoader} from "./pages/careers/Careers"
 import Faq from "./pages/Help/Faq"
@@ -30,7 +30,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="Help" element={<Help />} >
         <Route path="faq" element={<Faq />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} action={contactAction} />
       </Route>
       <Route path="/careers" element={<CareersLayout />} errorElement={<CareerError />}>
         <Route 
